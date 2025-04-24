@@ -1,0 +1,47 @@
+# Node.js core
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+log/
+*.log.*
+*.out
+*.pid
+
+# Environment files
+.env
+.env.test
+.env.production
+.env.local
+
+# SQLite databases (optional — include only if you're NOT sharing DB files)
+*.db
+db/*.db
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (optional)
+.vscode/
+
+# Testing
+coverage/
+*.lcov
+
+# Build / compiled files
+dist/
+build/
+.cache/
+.tmp/
+*.tsbuildinfo
+
+# Jest
+jest-cache/
+jest-config/
+jest-test
